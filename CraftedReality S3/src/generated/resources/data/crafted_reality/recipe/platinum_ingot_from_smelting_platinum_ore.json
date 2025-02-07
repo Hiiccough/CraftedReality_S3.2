@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "platinum",
+  "ingredient": {
+    "item": "crafted_reality:platinum_ore"
+  },
+  "result": {
+    "id": "crafted_reality:platinum_ingot"
+  }
+}

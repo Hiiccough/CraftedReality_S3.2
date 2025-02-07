@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.25,
+  "group": "lumitite",
+  "ingredient": {
+    "item": "crafted_reality:raw_lumitite"
+  },
+  "result": {
+    "id": "crafted_reality:lumitite_ingot"
+  }
+}

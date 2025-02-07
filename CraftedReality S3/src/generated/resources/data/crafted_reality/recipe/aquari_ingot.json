@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "crafted_reality:aquari_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "crafted_reality:aquari_ingot"
+  }
+}

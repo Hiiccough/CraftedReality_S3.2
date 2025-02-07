@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.25,
+  "group": "silver",
+  "ingredient": {
+    "item": "crafted_reality:raw_silver"
+  },
+  "result": {
+    "id": "crafted_reality:silver_ingot"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.25,
+  "group": "aquari",
+  "ingredient": {
+    "item": "crafted_reality:aquari_ore"
+  },
+  "result": {
+    "id": "crafted_reality:aquari_ingot"
+  }
+}

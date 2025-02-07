@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "crafted_reality:aquari_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "AA ",
+    "AS ",
+    " S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "crafted_reality:aquari_axe"
+  }
+}
