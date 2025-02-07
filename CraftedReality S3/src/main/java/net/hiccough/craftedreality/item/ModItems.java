@@ -6,7 +6,6 @@ import net.hiccough.craftedreality.item.custom.FuelItem;
 import net.hiccough.craftedreality.item.custom.HammerItem;
 import net.hiccough.craftedreality.item.custom.ModArmorItem;
 import net.minecraft.network.chat.Component;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
