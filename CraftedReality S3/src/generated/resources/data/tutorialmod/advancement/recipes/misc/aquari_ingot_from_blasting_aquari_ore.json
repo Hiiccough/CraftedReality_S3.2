@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_aquari_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tutorialmod:aquari_ore"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tutorialmod:aquari_ingot_from_blasting_aquari_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_aquari_ore"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tutorialmod:aquari_ingot_from_blasting_aquari_ore"
+    ]
+  }
+}

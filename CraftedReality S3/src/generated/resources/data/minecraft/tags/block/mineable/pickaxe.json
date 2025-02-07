@@ -1,0 +1,29 @@
+{
+  "values": [
+    "tutorialmod:aquari_block",
+    "tutorialmod:raw_aquari_block",
+    "tutorialmod:aquari_ore",
+    "tutorialmod:aquari_deepslate_ore",
+    "tutorialmod:magic_block",
+    "tutorialmod:lumitite_block",
+    "tutorialmod:lumitite_block",
+    "tutorialmod:lead_ore",
+    "tutorialmod:lead_deepslate_ore",
+    "tutorialmod:silver_ore",
+    "tutorialmod:silver_deepslate_ore",
+    "tutorialmod:titanium_ore",
+    "tutorialmod:titanium_deepslate_ore",
+    "tutorialmod:platinum_ore",
+    "tutorialmod:platinum_deepslate_ore",
+    "tutorialmod:voidstone",
+    "tutorialmod:lumitite_block",
+    "tutorialmod:lead_block",
+    "tutorialmod:raw_lead_block",
+    "tutorialmod:silver_block",
+    "tutorialmod:raw_silver_block",
+    "tutorialmod:titanium_block",
+    "tutorialmod:raw_titanium_block",
+    "tutorialmod:platinum_block",
+    "tutorialmod:raw_platinum_block"
+  ]
+}

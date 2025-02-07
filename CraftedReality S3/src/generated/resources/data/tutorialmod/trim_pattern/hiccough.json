@@ -1,0 +1,8 @@
+{
+  "asset_id": "tutorialmod:hiccough",
+  "decal": false,
+  "description": {
+    "translate": "trim_pattern.tutorialmod.hiccough"
+  },
+  "template_item": "tutorialmod:hiccough_armor_trim_smithing_template"
+}

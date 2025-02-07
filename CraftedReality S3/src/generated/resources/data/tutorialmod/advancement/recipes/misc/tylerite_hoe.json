@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_aquari_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tutorialmod:aquari_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tutorialmod:tylerite_hoe"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_aquari_ingot"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tutorialmod:tylerite_hoe"
+    ]
+  }
+}

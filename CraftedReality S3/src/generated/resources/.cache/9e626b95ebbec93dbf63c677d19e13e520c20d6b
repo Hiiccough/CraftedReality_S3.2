@@ -1,0 +1,6 @@
+// 1.21.1	2025-02-01T11:40:36.5121233	Tags for minecraft:block mod id tutorialmod
+cd54f88ab77d0ea1a16001c606b3d47561f82c94 data/minecraft/tags/block/mineable/pickaxe.json
+95b652a150870f9837c551e1a5bfff4762d00028 data/minecraft/tags/block/needs_diamond_tool.json
+e51a5c45ed8c18bc4defa7fdb135b61b35bafa0e data/minecraft/tags/block/needs_iron_tool.json
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/tutorialmod/tags/block/incorrect_for_aquari_tool.json
+74f68cf3596be9d716bff5261b812921c117d6a3 data/tutorialmod/tags/block/needs_aquari_tool.json

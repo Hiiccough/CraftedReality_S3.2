@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_lumitite": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tutorialmod:raw_lumitite"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tutorialmod:lumitite_ingot_from_blasting_raw_lumitite"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_raw_lumitite"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tutorialmod:lumitite_ingot_from_blasting_raw_lumitite"
+    ]
+  }
+}
