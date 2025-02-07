@@ -22,7 +22,7 @@ import org.slf4j.Logger;
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(CraftedReality.MOD_ID)
 public class CraftedReality {
-    public static final String MOD_ID = "tutorialmod";
+    public static final String MOD_ID = "crafted_reality";
     private static final Logger LOGGER = LogUtils.getLogger();
 
     public CraftedReality(FMLJavaModLoadingContext context)

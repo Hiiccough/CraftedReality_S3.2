@@ -17,50 +17,57 @@ public class ModCreativeModeTabs {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, CraftedReality.MOD_ID);
 
     //Registry for all new Items added for the mod
-    public static final RegistryObject<CreativeModeTab> TYLERITE_ITEMS_TAB = CREATIVE_MODE_TABS.register("tylerite_items_tab",
+    public static final RegistryObject<CreativeModeTab> CRAFTED_REALITY_ITEMS_TAB = CREATIVE_MODE_TABS.register("crafted_reality_items_tab",
             ()-> CreativeModeTab.builder().icon(()-> new ItemStack(ModItems.AQUARI_INGOT.get()))
-                    .title(Component.translatable("creativetab.tutorialmod.tylerite_items"))
+                    .title(Component.translatable("creativetab.tutorialmod.crafted_reality_items"))
                     .displayItems((itemDisplayParameters, output) -> {
-                        output.accept(ModItems.AQUARI_INGOT.get());
                         output.accept(ModItems.CHISEL.get());
-                        output.accept(ModItems.RAW_AQUARI.get());
                         output.accept(ModItems.KOHLRABI.get());
                         output.accept(ModItems.AURORA_ASHES.get());
 
-                        output.accept(ModItems.TYLERITE_HOE.get());
-                        output.accept(ModItems.TYLERITE_SWORD.get());
-                        output.accept(ModItems.TYLERITE_AXE.get());
-                        output.accept(ModItems.TYLERITE_PICKAXE.get());
-                        output.accept(ModItems.TYLERITE_SHOVEL.get());
+                        output.accept(ModItems.AQUARI_HOE.get());
+                        output.accept(ModItems.AQUARI_SWORD.get());
+                        output.accept(ModItems.AQUARI_AXE.get());
+                        output.accept(ModItems.AQUARI_PICKAXE.get());
+                        output.accept(ModItems.AQUARI_SHOVEL.get());
 
-                        output.accept(ModItems.TYLERITE_HOE.get());
+                        output.accept(ModItems.AQUARI_HOE.get());
 
-                        output.accept(ModItems.TYLERITE_HAMMER.get());
+                        output.accept(ModItems.AQUARI_HAMMER.get());
 
-                        output.accept(ModItems.TYLERITE_HELMET.get());
-                        output.accept(ModItems.TYLERITE_CHESTPLATE.get());
-                        output.accept(ModItems.TYLERITE_LEGGINGS.get());
-                        output.accept(ModItems.TYLERITE_BOOTS.get());
+                        output.accept(ModItems.AQUARI_HELMET.get());
+                        output.accept(ModItems.AQUARI_CHESTPLATE.get());
+                        output.accept(ModItems.AQUARI_LEGGINGS.get());
+                        output.accept(ModItems.AQUARI_BOOTS.get());
 
-                        output.accept(ModItems.TYLERITE_HORSE_ARMOR.get());
-                        output.accept(ModItems.HICCOUGH_SMITHING_TEMPLATE.get());
+                        output.accept(ModItems.AQUARI_HORSE_ARMOR.get());
+
+                        output.accept(ModItems.LEAD_INGOT.get());
+                        output.accept(ModItems.RAW_LEAD.get());
+                        output.accept(ModItems.SILVER_INGOT.get());
+                        output.accept(ModItems.RAW_SILVER.get());
+                        output.accept(ModItems.TITANIUM_INGOT.get());
+                        output.accept(ModItems.RAW_TITANIUM.get());
+                        output.accept(ModItems.PLATINUM_INGOT.get());
+                        output.accept(ModItems.RAW_PLATINUM.get());
+                        output.accept(ModItems.FROSTIUM_SHARD.get());
                         output.accept(ModItems.LUMITITE_INGOT.get());
                         output.accept(ModItems.RAW_LUMITITE.get());
+                        output.accept(ModItems.AQUARI_INGOT.get());
+                        output.accept(ModItems.RAW_AQUARI.get());
 
-                        output.accept(ModItems.HICCOUGH_BOW.get());
                     }).build());
 
     //Creative tab for all new blocks for the mod
-    public static final RegistryObject<CreativeModeTab> TYLERITE_BLOCKS_TAB = CREATIVE_MODE_TABS.register("tylerite_blocks_tab",
+    public static final RegistryObject<CreativeModeTab> CRAFTED_REALITY_BLOCKS_TAB = CREATIVE_MODE_TABS.register("crafted_realtiy_tab",
             ()-> CreativeModeTab.builder().icon(()-> new ItemStack(ModBlocks.AQUARI_BLOCK.get()))
-                    .withTabsBefore(TYLERITE_ITEMS_TAB.getId())
-                    .title(Component.translatable("creativetab.tutorialmod.tylerite_blocks"))
+                    .withTabsBefore(CRAFTED_REALITY_ITEMS_TAB.getId())
+                    .title(Component.translatable("creativetab.tutorialmod.crafted_realtiy_blocks"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.AQUARI_BLOCK.get());
                         output.accept(ModBlocks.RAW_AQUARI_BLOCK.get());
                         output.accept(ModBlocks.AQUARI_ORE.get());
                         output.accept(ModBlocks.AQUARI_DEEPSLATE_ORE.get());
-                        output.accept(ModBlocks.MAGIC_BLOCK.get());
                         output.accept(ModBlocks.LUMITITE_DEEPSLATE_ORE.get());
                         output.accept(ModBlocks.LUMITITE_ORE.get());
                         output.accept(ModBlocks.VOIDSTONE.get());
@@ -85,8 +92,6 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.TITANIUM_BLOCK.get());
                         output.accept(ModBlocks.SILVER_BLOCK.get());
                         output.accept(ModBlocks.LEAD_BLOCK.get());
-
-
 
                     }).build());
 

@@ -27,9 +27,8 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.RAW_AQUARI_BLOCK.get())
                 .add(ModBlocks.AQUARI_ORE.get())
                 .add(ModBlocks.AQUARI_DEEPSLATE_ORE.get())
-                .add(ModBlocks.MAGIC_BLOCK.get())
-                .add(ModBlocks.LUMITITE_BLOCK.get())
-                .add(ModBlocks.LUMITITE_BLOCK.get())
+                .add(ModBlocks.LUMITITE_DEEPSLATE_ORE.get())
+                .add(ModBlocks.LUMITITE_ORE.get())
                 .add(ModBlocks.LEAD_ORE.get())
                 .add(ModBlocks.LEAD_DEEPSLATE_ORE.get())
                 .add(ModBlocks.SILVER_ORE.get())
@@ -52,7 +51,6 @@ public class ModBlockTagProvider extends BlockTagsProvider {
 
         tag(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.LUMITITE_BLOCK.get())
-                .add(ModBlocks.LUMITITE_BLOCK.get())
                 .add(ModBlocks.LEAD_ORE.get())
                 .add(ModBlocks.LEAD_DEEPSLATE_ORE.get())
                 .add(ModBlocks.SILVER_ORE.get())
@@ -69,23 +67,26 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.TITANIUM_BLOCK.get())
                 .add(ModBlocks.RAW_TITANIUM_BLOCK.get())
                 .add(ModBlocks.PLATINUM_BLOCK.get())
-                .add(ModBlocks.RAW_PLATINUM_BLOCK.get());
+                .add(ModBlocks.RAW_PLATINUM_BLOCK.get())
+                .add(ModBlocks.LUMITITE_ORE.get())
+                .add(ModBlocks.LUMITITE_DEEPSLATE_ORE.get())
+                .add(ModBlocks.RAW_AQUARI_BLOCK.get());
+
 
         tag(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.AQUARI_DEEPSLATE_ORE.get())
+                .add(ModBlocks.VOIDSTONE.get())
                 .add(ModBlocks.AQUARI_ORE.get());
 
         //adds what blocks the tool can mine
         tag(ModTags.Blocks.NEEDS_AQUARI_TOOL)
-                .add((ModBlocks.RAW_AQUARI_BLOCK.get()))
-                .addTag(BlockTags.NEEDS_DIAMOND_TOOL)
-                .addTag(BlockTags.NEEDS_IRON_TOOL)
-                .add((ModBlocks.VOIDSTONE.get()))
-                .add((ModBlocks.LUMITITE_ORE.get()))
-                .add((ModBlocks.LUMITITE_DEEPSLATE_ORE.get()));
+                .add(ModBlocks.VOIDSTONE.get())
+                .addTag(BlockTags.NEEDS_DIAMOND_TOOL);
 
-        //removes blocks that would be restricted by iron tools that tylerite can mine
-        tag(ModTags.Blocks.INCORRECT_FOR_AQUARI_TOOL);
+        //removes blocks that would be restricted by diamond tools that tylerite can mine
+        tag(ModTags.Blocks.INCORRECT_FOR_AQUARI_TOOL)
+                .addTag(BlockTags.INCORRECT_FOR_DIAMOND_TOOL)
+                .remove(ModTags.Blocks.NEEDS_AQUARI_TOOL);
 
     }
 }

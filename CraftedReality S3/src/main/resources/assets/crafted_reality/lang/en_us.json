@@ -1,0 +1,73 @@
+{
+  "item.crafted_reality.tylerite": "Tylerite Gem",
+  "item.crafted_reality.raw_tylerite": "Raw Tylerite",
+
+  "item.crafted_reality.chisel": "Chisel",
+  "item.crafted_reality.kohlrabi": "Kohlrabi",
+  "item.crafted_reality.aurora_ashes": "Aurora Ashes",
+
+  "creativetab.crafted_reality.crafted_reality_items": "CR Items",
+  "creativetab.crafted_reality.crafted_reality_blocks": "CR Blocks",
+
+  "tooltip.crafted_reality.chisel.shift_down":"Click on different stone blocks to change the textures",
+  "tooltip.crafted_reality.chisel": "Press §6SHIFT§r for more information!",
+  "tooltip.crafted_reality.kohlrabi": "This tastes great!",
+
+  "block.crafted_reality.aquari_deepslate_ore": "Aquari Deepslate Ore",
+  "block.crafted_reality.aquari_ore": "Aquari Ore",
+  "block.crafted_reality.lumitite_ore": "Lumitite Ore",
+  "block.crafted_reality.lumitite_deepslate_ore": "Lumitite Deepslate Ore",
+  "block.crafted_reality.silver_ore": "Silver Ore",
+  "block.crafted_reality.silver_deepslate_ore": "Silver Deepslate Ore",
+  "block.crafted_reality.titanium_ore": "Titanium Ore",
+  "block.crafted_reality.titanium_deepslate_ore": "Titanium Deepslate Ore",
+  "block.crafted_reality.platinum_ore": "Platinum Ore",
+  "block.crafted_reality.platinum_deepslate_ore": "Platinum Deepslate Ore",
+  "block.crafted_reality.lead_ore": "Lead Ore",
+  "block.crafted_reality.lead_deepslate_ore": "Lead Deepslate Ore",
+  "block.crafted_reality.voidstone": "Voidstone",
+  "block.crafted_reality.frostium_ore": "Frostium",
+
+  "block.crafted_reality.raw_platinum_block": "Block of Raw Platinum",
+  "block.crafted_reality.raw_titanium_block": "Block of Raw Titanium",
+  "block.crafted_reality.raw_lead_block": "Block of Raw Lead",
+  "block.crafted_reality.raw_silver_block": "Block of Raw Silver",
+  "block.crafted_reality.raw_aquari_block": "Raw Aquari Block",
+
+  "block.crafted_reality.aquari_block": "Aquari Block",
+  "block.crafted_reality.lead_block": "Lead Block",
+  "block.crafted_reality.titanium_block": "Titanium Block",
+  "block.crafted_reality.platinum_block": "Platinum Block",
+  "block.crafted_reality.silver_block": "Silver Block",
+
+  "item.crafted_reality.aquari_ingot": "Aquari Ingot",
+  "item.crafted_reality.raw_aquari": "Raw Aquari",
+  "item.crafted_reality.lumitite_ingot": "Lumitite Ingot",
+  "item.crafted_reality.raw_lumitite": "Raw Lumitite",
+  "item.crafted_reality.raw_lead": "Raw Lead",
+  "item.crafted_reality.raw_platinum": "Raw Platinum",
+  "item.crafted_reality.platinum_ingot": "Platinum Ingot",
+  "item.crafted_reality.lead_ingot": "Lead Ingot",
+  "item.crafted_reality.silver_ingot": "Silver Ingot",
+  "item.crafted_reality.raw_silver": "Raw Silver",
+  "item.crafted_reality.titanium_ingot": "Titanium Ingot",
+  "item.crafted_reality.raw_titanium": "Raw Titanium",
+  "item.crafted_reality.frostium_shard": "Frostium Shard",
+
+
+  "item.crafted_reality.aquari_sword": "Aquari Sword",
+  "item.crafted_reality.aquari_shovel": "Aquari Shovel",
+  "item.crafted_reality.aquari_pickaxe": "Aquari Pickaxe",
+  "item.crafted_reality.aquari_axe": "Aquari Axe",
+  "item.crafted_reality.aquari_hoe": "Aquari Hoe",
+
+  "item.crafted_reality.aquari_hammer": "Aquari Hammer",
+
+  "item.crafted_reality.aquari_helmet": "Aquari Helmet",
+  "item.crafted_reality.aquari_chestplate": "Aquari Chestplate",
+  "item.crafted_reality.aquari_leggings": "Aquari Leggings",
+  "item.crafted_reality.aquari_boots": "Aquari Boots",
+  "item.crafted_reality.aquari_horse_armor": "Aquari Horse Armor",
+
+  "item.crafted_reality.hiccough_bow": "Hiccough Bow"
+}

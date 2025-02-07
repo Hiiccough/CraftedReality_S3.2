@@ -67,20 +67,19 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         fenceItem(ModBlocks.AQUARI_BLOCK, ModBlocks.AQUARI_BLOCK);
 
-        handheldItem(ModItems.TYLERITE_SWORD);
-        handheldItem(ModItems.TYLERITE_PICKAXE);
-        handheldItem(ModItems.TYLERITE_SHOVEL);
-        handheldItem(ModItems.TYLERITE_AXE);
-        handheldItem(ModItems.TYLERITE_HOE);
-        handheldItem(ModItems.TYLERITE_HAMMER);
+        handheldItem(ModItems.AQUARI_SWORD);
+        handheldItem(ModItems.AQUARI_PICKAXE);
+        handheldItem(ModItems.AQUARI_SHOVEL);
+        handheldItem(ModItems.AQUARI_AXE);
+        handheldItem(ModItems.AQUARI_HOE);
+        handheldItem(ModItems.AQUARI_HAMMER);
 
-        trimmedArmorItem(ModItems.TYLERITE_HELMET);
-        trimmedArmorItem(ModItems.TYLERITE_CHESTPLATE);
-        trimmedArmorItem(ModItems.TYLERITE_LEGGINGS);
-        trimmedArmorItem(ModItems.TYLERITE_BOOTS);
+        trimmedArmorItem(ModItems.AQUARI_HELMET);
+        trimmedArmorItem(ModItems.AQUARI_CHESTPLATE);
+        trimmedArmorItem(ModItems.AQUARI_LEGGINGS);
+        trimmedArmorItem(ModItems.AQUARI_BOOTS);
 
-        basicItem(ModItems.TYLERITE_HORSE_ARMOR.get());
-        basicItem(ModItems.HICCOUGH_SMITHING_TEMPLATE.get());
+        basicItem(ModItems.AQUARI_HORSE_ARMOR.get());
     }
 
     // Shoutout to El_Redstoniano for making this

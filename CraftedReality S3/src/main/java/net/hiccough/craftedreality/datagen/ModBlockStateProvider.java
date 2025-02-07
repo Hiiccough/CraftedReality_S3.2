@@ -2,12 +2,9 @@ package net.hiccough.craftedreality.datagen;
 
 import net.hiccough.craftedreality.CraftedReality;
 import net.hiccough.craftedreality.block.ModBlocks;
-import net.hiccough.craftedreality.block.custom.TyleriteLampBlock;
 import net.minecraft.data.PackOutput;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
-import net.minecraftforge.client.model.generators.ConfiguredModel;
 import net.minecraftforge.client.model.generators.ModelFile;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -48,8 +45,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.TITANIUM_DEEPSLATE_ORE);
         blockWithItem(ModBlocks.TITANIUM_ORE);
         blockWithItem(ModBlocks.FROSTIUM_ORE);
-
-        blockWithItem(ModBlocks.MAGIC_BLOCK);
+        blockWithItem(ModBlocks.VOIDSTONE);
 
     }
 
@@ -58,12 +54,12 @@ public class ModBlockStateProvider extends BlockStateProvider {
     }
 
     private void blockItem(RegistryObject<? extends Block> blockRegistryObject) {
-        simpleBlockItem(blockRegistryObject.get(), new ModelFile.UncheckedModelFile("tutorialmod:block/" +
+        simpleBlockItem(blockRegistryObject.get(), new ModelFile.UncheckedModelFile("crafted_reality:block/" +
                 ForgeRegistries.BLOCKS.getKey(blockRegistryObject.get()).getPath()));
     }
 
     private void blockItem(RegistryObject<? extends Block> blockRegistryObject, String appendix) {
-        simpleBlockItem(blockRegistryObject.get(), new ModelFile.UncheckedModelFile("tutorialmod:block/" +
+        simpleBlockItem(blockRegistryObject.get(), new ModelFile.UncheckedModelFile("crafted_reality:block/" +
                 ForgeRegistries.BLOCKS.getKey(blockRegistryObject.get()).getPath() + appendix));
     }
 

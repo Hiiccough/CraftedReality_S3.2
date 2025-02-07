@@ -39,7 +39,6 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.PLATINUM_BLOCK.get());
         dropSelf(ModBlocks.TITANIUM_BLOCK.get());
         dropSelf(ModBlocks.LUMITITE_BLOCK.get());
-        dropSelf(ModBlocks.MAGIC_BLOCK.get());
 
         //drops that are like normal ores
         this.add(ModBlocks.AQUARI_ORE.get(),

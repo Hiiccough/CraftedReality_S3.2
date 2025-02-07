@@ -22,21 +22,7 @@ public class ModItemTagProvider extends ItemTagsProvider {
 
     @Override
     protected void addTags(HolderLookup.Provider pProvider) {
-        tag(ModTags.Items.TRANSFORMABLE_ITEMS)
-                .add(ModItems.AQUARI_INGOT.get())
-                .add(ModItems.RAW_AQUARI.get())
-                .add(Items.STICK);
 
-        tag(ItemTags.TRIMMABLE_ARMOR)
-                .add(ModItems.TYLERITE_HELMET.get())
-                .add(ModItems.TYLERITE_CHESTPLATE.get())
-                .add(ModItems.TYLERITE_LEGGINGS.get())
-                .add(ModItems.TYLERITE_BOOTS.get());
 
-        tag(ItemTags.TRIM_MATERIALS)
-                .add(ModItems.AQUARI_INGOT.get());
-
-        tag(ItemTags.TRIM_TEMPLATES)
-                .add(ModItems.HICCOUGH_SMITHING_TEMPLATE.get());
     }
 }

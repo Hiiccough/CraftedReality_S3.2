@@ -108,7 +108,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('A', ModItems.LUMITITE_INGOT.get())
                 .unlockedBy(getHasName(ModItems.LUMITITE_INGOT.get()), has(ModItems.LUMITITE_INGOT.get())).save(pRecipeOutput);
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.TYLERITE_PICKAXE.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.AQUARI_PICKAXE.get())
                 .pattern("AAA")
                 .pattern(" S ")
                 .pattern(" S ")
@@ -116,7 +116,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('S', Items.STICK)
                 .unlockedBy(getHasName(ModItems.AQUARI_INGOT.get()), has(ModItems.AQUARI_INGOT.get())).save(pRecipeOutput);
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.TYLERITE_SHOVEL.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.AQUARI_SHOVEL.get())
                 .pattern(" A ")
                 .pattern(" S ")
                 .pattern(" S ")
@@ -124,7 +124,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('S', Items.STICK)
                 .unlockedBy(getHasName(ModItems.AQUARI_INGOT.get()), has(ModItems.AQUARI_INGOT.get())).save(pRecipeOutput);
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.TYLERITE_SWORD.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.AQUARI_SWORD.get())
                 .pattern(" A ")
                 .pattern(" A ")
                 .pattern(" S ")
@@ -132,7 +132,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('S', Items.STICK)
                 .unlockedBy(getHasName(ModItems.AQUARI_INGOT.get()), has(ModItems.AQUARI_INGOT.get())).save(pRecipeOutput);
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.TYLERITE_HOE.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.AQUARI_HOE.get())
                 .pattern(" AA")
                 .pattern(" S ")
                 .pattern(" S ")
@@ -140,7 +140,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('S', Items.STICK)
                 .unlockedBy(getHasName(ModItems.AQUARI_INGOT.get()), has(ModItems.AQUARI_INGOT.get())).save(pRecipeOutput);
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.TYLERITE_AXE.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.AQUARI_AXE.get())
                 .pattern("AA ")
                 .pattern("AS ")
                 .pattern(" S ")
@@ -173,9 +173,6 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         oreBlasting(pRecipeOutput, SILVER_SMELTABLES, RecipeCategory.MISC, ModItems.SILVER_INGOT.get(), 0.25f, 100, "silver");
 
 
-
-
-        trimSmithing(pRecipeOutput, ModItems.HICCOUGH_SMITHING_TEMPLATE.get(), ResourceLocation.fromNamespaceAndPath(CraftedReality.MOD_ID, "hiccough"));
     }
 
     protected static void oreSmelting(RecipeOutput recipeOutput, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult,
